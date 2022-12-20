@@ -14,3 +14,4 @@ jobs:
         ftp-server: ${{ secrets.FTP_URL }}
         ftp-username: ${{ secrets.FTP_USER }}
         ftp-password: ${{ secrets.FTP_PASSWORD }}
+        local_dir: "./public_html/telli/"
