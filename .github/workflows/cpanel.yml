@@ -1,0 +1,6 @@
+on: push
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/example/public_html/telli
+    - /bin/cp index.html $DEPLOYPATH
