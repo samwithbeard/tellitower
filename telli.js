@@ -242,6 +242,7 @@ let maxCol=15;
    //document.getElementById("rightbutton").addEventListener("click", () => console.log("rightclicked")) 
    document.getElementById("leftbutton").addEventListener("click", () => moveLeft()) 
    document.getElementById("rightbutton").addEventListener("click", () => moveRight()) 
+   document.getElementById("downloadbutton").addEventListener("click", () => downloadSVG()) 
    document.onkeydown = function(e) {
       
       switch (e.keyCode) {
