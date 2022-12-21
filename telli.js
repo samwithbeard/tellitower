@@ -39,7 +39,15 @@ let maxCol=15;
       }
    }
          
-      
+   function downloadSVG() {
+    const svg = document.getElementById('svgcontainer').outerHTML;
+    const blob = new Blob([svg.toString()]);
+    const element = document.createElement("a");
+    element.download = "telli.svg";
+    element.href = window.URL.createObjectURL(blob);
+    element.click();
+    element.remove();
+  }  
    
    function setRowClass(){
       
@@ -204,8 +212,8 @@ let maxCol=15;
       floor=topfloor;  
       i=2;   
       FlowId=window.setInterval(() => {
-      console.log(String(floor)+" floor") ;
-      console.log(String(col)+" col");
+      //console.log(String(floor)+" floor") ;
+      //console.log(String(col)+" col");
 
       try {
       //console.log("flowID "+FlowId) 
@@ -259,7 +267,7 @@ let maxCol=15;
    function moveLeft(){
       columNav--;
    }
-   function moveRight(){
+   function moveRight(){    
       columNav++;
    }
    //INIT
@@ -331,6 +339,7 @@ let maxCol=15;
    //ON(); 
    //setWindowLight(16,2,1);
    setNormalPalette();
+   setSFPalette();
    function start(){
    var ninterval=0;
    Id=window.setInterval(() => {
