@@ -1,8 +1,8 @@
 let columNav=0;
-   let rowNav=0;
-   let topfloor=19;
-   let basefloor=2;  
-   let maxCol=15;
+let rowNav=0;
+let topfloor=19;
+let basefloor=2;  
+let maxCol=15;
 
    function resetWindowClass(){
       let floors = document.getElementsByClassName('floor');
@@ -359,6 +359,5 @@ let columNav=0;
          setNormalPalette()
       } 
       }, 9500 );    
-   } 
-   //test another new dev branch deployment
+   }   
    start();  
