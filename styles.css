@@ -33,11 +33,11 @@ header {
     transition: all 0.3s ease 0s;
 }
 .nav_links li a:hover{
-    color:0088a9;
+    color:#417691;
 }
 button {
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: #417691;
     border:none;
     border-radius: 50px;
     cursor: pointer;
