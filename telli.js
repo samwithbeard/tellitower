@@ -347,7 +347,7 @@ let maxCol=15;
    //ON(); 
    //setWindowLight(16,2,1);
    setNormalPalette();
-   setSFPalette();
+   
    function start(){
    var ninterval=0;
    Id=window.setInterval(() => {
