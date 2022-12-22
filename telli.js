@@ -243,6 +243,13 @@ let maxCol=15;
    document.getElementById("leftbutton").addEventListener("click", () => moveLeft()) ;
    document.getElementById("rightbutton").addEventListener("click", () => moveRight()) ;
    document.getElementById("downloadbutton").addEventListener("click", () => downloadSVG()) ;
+   document.getElementById("daybtn").addEventListener("click", () => setNormalPalette()) ;
+   document.getElementById("nightbtn").addEventListener("click", () => setNightPalette()) ;
+   document.getElementById("sunsetbtn").addEventListener("click", () => setSFPalette()) ;
+   document.getElementById("fogbtn").addEventListener("click", () => setFogPalette()) ;
+
+   
+   
    document.onkeydown = function(e) {
       
       switch (e.keyCode) {
