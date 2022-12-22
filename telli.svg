@@ -1,27 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-  <head>
-      <meta http-equiv="content-type" content="text/html; charset=utf-8">
-      <meta name="generator" content="PSPad editor, www.pspad.com">
-      <title>telli tower</title>
-      <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-   <header>
-      <a href="https://railway-2.creator-spring.com/listing/telli-pink" ><img class="logo" src="logo.svg" alt="logo" height="40" width="80"></a>
-      <nav>
- <ul class="nav_links">
-      <li id="daybtn"><a href="#">day</a></li>
-      <li id="nightbtn"><a  href="#">night</a></li>
-      <li id="sunsetbtn"><a href="#">sunset</a></li>
-      <li id="fogbtn"><a href="#">fog</a></li>
-   </ul>
-   
- </nav>  
- <a class="cta" href="#"><button id="downloadbutton">download</button></a>
-</header>  
-
-</svg> 
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
    <svg
       preserveAspectRatio="xMinYMax meet"
       width="100%"
@@ -29,7 +6,7 @@
       style="background-color:#0a020f"
       viewBox="0 0 210 297"
       version="1.1"
-      id="svgcontainer"
+      id="svg8"
       inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
       sodipodi:docname="telli.svg"
       inkscape:export-filename="telli.png"
@@ -45,7 +22,8 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/">
 
    <style
-      id="animation">   
+      id="animation">
+   
          .antennenlicht {
                animation-name: Blink;
                animation-duration: 3s;
@@ -3765,10 +3743,5 @@
          x="50%"
          y="0"
          inkscape:label="rightbutton" />
-      
    </g>
    </svg>
-
-   <script src="telli.js"></script>
-</body>
-</html>
