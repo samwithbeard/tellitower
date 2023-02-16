@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Monserrat:500');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 * {
  box-sizing: border-box;
  margin: 0;
@@ -7,7 +7,7 @@
 }
 
 li, a, button {
-    font-family: "Monserrat", Verdana, sans-serif;
+    font-family: "Montserrat", Verdana, sans-serif;
     font-weight: 500;
     font-size: 12px;
     color: #edf0f1;
@@ -37,9 +37,17 @@ header {
 }
 button {
     padding: 5px 25px;
+    background-color: #32383a;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.cta {
     background-color: #417691;
     border:none;
     border-radius: 20px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
+
