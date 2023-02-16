@@ -50,4 +50,11 @@ button {
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
+.secondary {
+    background-color: #32383a;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
 
