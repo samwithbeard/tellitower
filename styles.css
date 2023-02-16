@@ -35,22 +35,17 @@ header {
 .nav_links li a:hover{
     color:#417691;
 }
-button {
+
+button.cta {
     padding: 5px 25px;
-    background-color: #32383a;
-    border:none;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
-.cta {
     background-color: #417691;
     border:none;
     border-radius: 20px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
-.secondary {
+button.secondary {
+    padding: 5px 25px;
     background-color: #32383a;
     border:none;
     border-radius: 20px;
